@@ -11,6 +11,8 @@ Execute in cmd:
 ```
 git clone https://github.com/Irrgh/rloc.git
 
+cd rloc
+
 (echo @echo off & echo racket %cd%\loc.rkt %*) > rloc.bat
 ```
 
