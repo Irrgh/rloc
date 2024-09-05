@@ -16,7 +16,7 @@ git clone https://github.com/Irrgh/rloc.git
 
 Add the `cd` to the `PATH` environment variable.
 
---
+---
 
 ### Usage
 
@@ -24,9 +24,6 @@ Execute `rloc` in whatever project you need to count lines in.
 Filtering by type can be done with `rloc [file-extension]`.
 
 
-If your project has a `.gitignore` it will automatically also ignore all **folders** listed. Other `.gitignore` matching features not supported for now.
-
-
-
-
-
+If your project has a `.gitignore` it will automatically also ignore all **folders** listed.
+Other `.gitignore` matching features not supported for now.
+The `.git` directory is also ignored by default.
